@@ -18,27 +18,10 @@ Contact <a href="https://www.linkedin.com/in/allie-robinson/">Allie Robinson</a>
 Therapy Dog Finder is currently closed to outside contributions. Feel free to check back later!
 
 ### settings.json:
-These VSCode settings will make Prettier your default formatter and will cause prettier and import sorting to run on save.
+These VSCode settings will make Prettier your default formatter and will cause prettier and import sorting to run on save. Make sure you install the <a href="https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode">Prettier</a> and <a href="https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint">ESLint</a> extensions. 
 ```
   "editor.formatOnSave": true,
-  "[html]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[jsonc]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[json]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[css]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[scss]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true
   },
