@@ -7,6 +7,7 @@ This app is dedicated to a beautiful person who for many years spent her free ti
 2. `npm run start`
 
 ### settings.json:
+These VSCode settings will make Prettier your default formatter and will cause prettier and import sorting to run on save.
 ```
   "editor.formatOnSave": true,
   "[html]": {
