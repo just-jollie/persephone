@@ -6,6 +6,17 @@ This app is dedicated to a beautiful person who for many years spent her free ti
 1. `npm install`
 2. `npm run start`
 
+### Notion documentation:
+
+<a href="https://www.notion.so/allierae/Therapy-Dog-App-8950ff47cc874c5c83abbfd1d1bdeb83">Therapy dog app</a>
+
+### Point person: 
+
+Contact <a href="https://www.linkedin.com/in/allie-robinson/">Allie Robinson</a> if you want to discuss this app.
+
+### Wanna contribute? 
+Therapy Dog Finder is currently closed to outside contributions. Feel free to check back later!
+
 ### settings.json:
 These VSCode settings will make Prettier your default formatter and will cause prettier and import sorting to run on save.
 ```
@@ -39,14 +50,3 @@ These VSCode settings will make Prettier your default formatter and will cause p
     "simple-import-sort/exports"
   ]
   ```
-
-### Notion documentation:
-
-<a href="https://www.notion.so/allierae/Therapy-Dog-App-8950ff47cc874c5c83abbfd1d1bdeb83">Therapy dog app</a>
-
-### Point person: 
-
-Contact <a href="https://www.linkedin.com/in/allie-robinson/">Allie Robinson</a> if you want to discuss this app.
-
-### Wanna contribute? 
-Therapy Dog Finder is currently closed to outside contributions. Feel free to check back later!
