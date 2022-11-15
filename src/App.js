@@ -1,5 +1,5 @@
 function App() {
-  return <div>side project starter ftw!</div>
+  return <div>therapy dog finder</div>
 }
 
 export default App

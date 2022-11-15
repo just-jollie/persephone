@@ -17,12 +17,25 @@
       "eslint:recommended"
     ],
     "plugins": [
-      "only-warn"
+      "only-warn",
+      "simple-import-sort",
+      "import"
     ],
     "parserOptions": {
       "ecmaFeatures": {
         "jsx": true
-      }
+      },
+      "sourceType": "module"
+    },
+    "env": {
+      "es6": true
+    },
+    "rules": {
+      "simple-import-sort/imports": "error",
+      "simple-import-sort/exports": "error",
+      "import/first": "error",
+      "import/newline-after-import": "error",
+      "import/no-duplicates": "error"
     }
   },
   "browserslist": {
@@ -39,8 +52,10 @@
   },
   "devDependencies": {
     "eslint": "^8.25.0",
+    "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-only-warn": "^1.0.3",
     "eslint-plugin-react": "^7.31.10",
+    "eslint-plugin-simple-import-sort": "^8.0.0",
     "prettier": "2.7.1"
   }
 }
