@@ -1,5 +1,13 @@
+import { Box } from '@mui/material'
+
+import { Navigation } from './reusableComponents'
+
 function App() {
-  return <div>therapy dog finder</div>
+  return (
+    <Box>
+      <Navigation />
+    </Box>
+  )
 }
 
 export default App

@@ -3,6 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "@mui/icons-material": "^5.10.14",
+    "@mui/material": "^5.10.14",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
@@ -31,11 +35,11 @@
       "es6": true
     },
     "rules": {
-      "simple-import-sort/imports": "error",
-      "simple-import-sort/exports": "error",
-      "import/first": "error",
-      "import/newline-after-import": "error",
-      "import/no-duplicates": "error"
+      "simple-import-sort/imports": "warn",
+      "simple-import-sort/exports": "warn",
+      "import/first": "warn",
+      "import/newline-after-import": "warn",
+      "import/no-duplicates": "warn"
     }
   },
   "browserslist": {
