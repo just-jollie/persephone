@@ -1,13 +1,13 @@
-import { Box } from '@mui/material'
+import { Box } from "@mui/material";
 
-import { Navigation } from './reusableComponents'
+import { Navigation } from "./reusableComponents";
 
 function App() {
   return (
     <Box>
       <Navigation />
     </Box>
-  )
+  );
 }
 
-export default App
+export default App;
