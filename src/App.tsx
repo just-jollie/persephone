@@ -1,7 +1,7 @@
 import { Box } from "@mui/material";
 
 function App() {
-  return <Box></Box>;
+  return <Box>um hi</Box>;
 }
 
 export default App;
