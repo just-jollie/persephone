@@ -1,9 +1,10 @@
 {
   "compilerOptions": {
-    "module": "esnext",
-    "target": "es2015",
+    "module": "NodeNext",
+    "target": "ES2020",
     "jsx": "react-jsx",
-    "strict": true
+    "strict": true,
+    "moduleResolution": "Node"
   },
   "include": ["./**/*"]
 }
