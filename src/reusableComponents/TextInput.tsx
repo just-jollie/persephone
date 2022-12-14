@@ -8,6 +8,8 @@ export interface TextInputProps {
   label: string;
   variant?: "standard" | "filled" | "outlined" | undefined;
   required?: boolean;
+  error: boolean;
+  random: string;
 }
 
 export const TextInput: React.FC<TextInputProps> = ({
@@ -15,24 +17,21 @@ export const TextInput: React.FC<TextInputProps> = ({
   name,
   label,
   variant = "outlined",
-  required = true,
+  required = "This field is required.",
 }) => {
   return (
     <Controller
       control={control}
       name={name}
-      render={({
-        field: { ref, onBlur, name, onChange, value },
-        fieldState: { isTouched, error },
-        formState: { defaultValues },
-      }) => {
+      rules={{ required }}
+      render={({ field: { ref, onBlur, name, onChange, value }, fieldState: { error } }) => {
         return (
           <TextField
             label={label}
             variant={variant}
             inputRef={ref}
-            helperText={!!error && isTouched && <>This field is required.</>}
-            error={!!error && isTouched}
+            helperText={!!error && error?.message}
+            error={!!error}
             onBlur={onBlur}
             onChange={onChange}
             name={name}
@@ -40,7 +39,6 @@ export const TextInput: React.FC<TextInputProps> = ({
           />
         );
       }}
-      rules={{ required: required }}
     />
   );
 };

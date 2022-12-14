@@ -8,14 +8,14 @@ const arrayOfInputs = [
     inputType: TextInput,
     name: "firstName",
     label: "First Name",
-    required: true,
+    required: "This field is required.",
     defaultValue: "Locke",
   },
   {
     inputType: TextInput,
     name: "lastName",
     label: "Last Name",
-    required: true,
+    required: "This field is required.",
     defaultValue: "Lamora",
   },
   {

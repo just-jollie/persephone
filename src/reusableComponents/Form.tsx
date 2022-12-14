@@ -15,7 +15,7 @@ export const Form: React.FC<FormProps> = ({ arrayOfInputs }) => {
     <Box sx={{ width: "100%", maxWidth: "500px", margin: "0 auto", marginTop: 2 }}>
       <Box component="form" onSubmit={handleSubmit((values) => console.log(values))}>
         <Stack spacing={2}>
-          {arrayOfInputs.map((input, index): ReactElement<any, any> => {
+          {arrayOfInputs.map((input): ReactElement<any, any> => {
             const Input = input.inputType;
             return (
               <Input
@@ -24,6 +24,7 @@ export const Form: React.FC<FormProps> = ({ arrayOfInputs }) => {
                 control={control}
                 required={input.required}
                 key={input.name}
+                error={input.error}
               />
             );
           })}
