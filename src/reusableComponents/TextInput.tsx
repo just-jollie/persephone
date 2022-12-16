@@ -9,7 +9,6 @@ export interface TextInputProps {
   variant?: "standard" | "filled" | "outlined" | undefined;
   required?: boolean;
   error: boolean;
-  random: string;
 }
 
 export const TextInput: React.FC<TextInputProps> = ({
